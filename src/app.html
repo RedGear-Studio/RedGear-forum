@@ -1,66 +1,38 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>RedGear Forum</title>
+    %sveltekit.head%
+    <style>
+      body {
+        margin: 0;
+        background: rgb(44, 44, 44);
+        color: white;
+      }
 
-  <html lang="en">
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+      }
 
-    <head>
-
-      <meta charset="utf-8" />
-
-      <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-
-      <meta name="viewport" content="width=device-width" />
-
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-
-      <script src = "js interaction/forum-REGL.js" defer></script>
-
-      <title>Reg-lang Forum</title>
-
-      <!-- %sveltekit.head% -->
-
-      <link rel = "stylesheet" href = "app.css">
-
-    </head>
-
+      .noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+      }
+    </style>
+  </head>
   <body data-sveltekit-preload-data="hover">
-
-    <div class="space"></div>
-
-    <!-- <div style="display: contents">%sveltekit.body%</div> -->
-
-    <div class="flexbox" id = "flexbox">
-
-      <div class="item" id = "first-item">Home</div>
-      <div class="item" id = "second-item">Forum</div> 
-
-    </div>
-
-    <div class="space"></div>
-
-    <div class="cadre">
-
-      <div class="list-post">
-
-        <div class="post"></div>
-
-      </div>
-
-    </div>
-
-    <div class="space"></div>
-
-    <div class="form-post">
-
-      <input type = "text" placeholder = "Name of post" id = "name-post">
-      <input type = "text" placeholder = "Text of post" id = "text-post">
-      <input type = "submit" placeholder = "Send post" id = "send-post">
-
-    </div>
-
-    <div class="space"></div>
-
-    <div class="footer">&copy 2023-2024 Read Gear | Design by <em>Elham and Tach</em> of RG Team</div>
-
+    <div style="display: contents">%sveltekit.body%</div>
   </body>
-
 </html>

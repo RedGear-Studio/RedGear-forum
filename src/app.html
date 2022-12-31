@@ -12,6 +12,8 @@
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 
+      <script src = "js interaction/forum-REGL.js" defer></script>
+
       <title>Reg-lang Forum</title>
 
       <!-- %sveltekit.head% -->
@@ -24,10 +26,10 @@
 
     <!-- <div style="display: contents">%sveltekit.body%</div> -->
 
-    <div class="flexbox">
+    <div class="flexbox" id = "flexbox">
 
       <div class="item" id = "first-item">Home</div>
-      <div class="item">Forum</div> 
+      <div class="item" id = "second-item">Forum</div> 
 
     </div>
 
@@ -49,6 +51,7 @@
 
       <input type = "text" placeholder = "Name of post" id = "name-post">
       <input type = "text" placeholder = "Text of post" id = "text-post">
+      <input type = "submit" placeholder = "Send post">
 
     </div>
 

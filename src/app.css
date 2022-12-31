@@ -13,6 +13,8 @@ body {
 .flexbox {
 
   display: flex;
+  border:solid 1px;
+  border-radius: 10px;
 
 }
 

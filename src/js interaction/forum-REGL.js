@@ -40,3 +40,17 @@ flexbox.addEventListener('mouseout', function() {
 
 })
 
+flexbox.addEventListener('click', function() {
+
+    if (window.confirm("Êtes-vous sûr de vouloir continuer ?")) {
+
+        window.open("https://www.example.com");
+
+      } else {
+
+    
+
+      }
+
+})
+

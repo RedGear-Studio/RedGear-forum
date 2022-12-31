@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-var header = (
+var footer = (
 
-    <h1>
-    RegLang Forum 
-    </h1>
+    <p>
 
+    RegLang Forum &copy |
+
+    </p>
 
 );
 

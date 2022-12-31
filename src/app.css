@@ -28,3 +28,20 @@ body {
   text-align: center;
 
 }
+
+.cadre {
+
+  width: 500px;
+  height: 500px;
+  border: solid 1px #000000;
+  border-radius: 10pw;
+  overflow-y: scroll;
+
+}
+
+.space {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}

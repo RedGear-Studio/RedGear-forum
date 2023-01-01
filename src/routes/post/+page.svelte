@@ -1,5 +1,11 @@
 <script>
-  /* Write your javascript here */
+  var footer = document.getElementById("footer")
+
+  footer.addEventListener('click', function() {
+
+    // Bring up a window with all the footer information
+
+  })
 </script>
 
 
@@ -32,7 +38,7 @@
   <input type="submit" placeholder="Send post" id="send-post" />
 </div>
 <div class="space" />
-<div class="footer">
+<div id ="footer">
   &copy 2023-2024 Read Gear | Design by <em>Elham and Tach</em> of RG Team
 </div>
 

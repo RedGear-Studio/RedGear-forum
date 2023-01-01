@@ -1,4 +1,6 @@
+<script>
 import * as MyImg from "/RedGear-forum/src/assets/red_gear_red_icon.png";
+</script>
 
 <div id="menu-container">
   <dir id="menu-logo">
@@ -10,6 +12,7 @@ import * as MyImg from "/RedGear-forum/src/assets/red_gear_red_icon.png";
     <button>Sign up</button>
   </div>
 </div>
+
 
 <style>
 
